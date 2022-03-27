@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4732560964414131675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4732560964414131674}
+  - component: {fileID: 4732560964414131673}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4732560964414131674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732560964414131675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4732560964414131673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732560964414131675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6157d2e9b17a7b646806e195707ad474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Straw: {fileID: 7146362000235224237, guid: 8890f9700df939a4abf2ef86f8a41b6b, type: 3}
+  stunParticle: {fileID: 1846532664448058, guid: 20980e90dd2e73b419275714d5c124c4, type: 3}
+  allAnimalIcon:
+  - {fileID: 21300000, guid: 30f20a2435d787449be17523d74f963c, type: 3}
+  - {fileID: 21300000, guid: 89404c54c57d6834fad4fc6f77423b0c, type: 3}
+  - {fileID: 21300000, guid: 6039a4903cfdc93438b5beed7bee49b2, type: 3}
+  pigIcon: {fileID: 21300000, guid: 89404c54c57d6834fad4fc6f77423b0c, type: 3}
+  sheepIcon: {fileID: 21300000, guid: 6039a4903cfdc93438b5beed7bee49b2, type: 3}
+  allAnimalCompleteIcon:
+  - {fileID: 21300000, guid: 6029214090b64cb41a96aea705abe6aa, type: 3}
+  - {fileID: 21300000, guid: 08e1308811a60a24382d9a3a812c3f88, type: 3}
+  - {fileID: 21300000, guid: 9dd1d7d1bc9615544af63b32a1e7b323, type: 3}
+  pigCompleteIcon: {fileID: 21300000, guid: 08e1308811a60a24382d9a3a812c3f88, type: 3}
+  sheepCompleteIcon: {fileID: 21300000, guid: 9dd1d7d1bc9615544af63b32a1e7b323, type: 3}
